@@ -1,0 +1,20 @@
+name: PlungingAttack
+version: '${project.version}'
+main: com.roughlyunderscore.PlungingAttack
+api-version: 1.19
+authors: [Roughly_]
+description: A Genshin-inspired plunging attack!
+website: roughlyunderscore.7m.pl
+
+commands:
+  plungingattack:
+    description: Base plunging attack command
+    aliases: [pa, plunge, plungeattack, pattack, plungea]
+
+permissions:
+  plungingattack.use:
+    description: Allows the player to use the plunging attack
+    default: true
+  plungingattack.reload:
+    description: Allows the player to reload the config
+    default: op
